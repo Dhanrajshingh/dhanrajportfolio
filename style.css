@@ -621,7 +621,7 @@ a {
 
     #about p {
         margin-top: 30px;
-        margin-left: 40px;
+        margin-left: 0px;
         width: 400px;
     }
 }
@@ -699,7 +699,7 @@ a {
     }
      
     .skills .persentage{
-        width: 370px;
+        width: 340px;
         padding-left: 30px;
     }
     .persentage .html{
@@ -823,7 +823,7 @@ a {
 @media (max-width: 600px){
     .project-paragraph{
         width: 400px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     #project h1{
         display: none;
