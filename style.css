@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(75, 148, 185);
+    background-color: rgb(113, 176, 207);
     scroll-behavior: smooth;
 }
 
@@ -96,7 +96,7 @@ nav {
 }
 
 /* Responsive Menu (Slide in from the right with delay effect) */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .menu {
         position: fixed;
         top: 0;
@@ -203,13 +203,13 @@ nav a:hover {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .logo li {
         display: none;
     }
 }
 
-/* @media (max-width: 768px){
+/* @media (max-width: 600px){
     .menu{
         cursor: pointer;
         color: white;
@@ -254,6 +254,7 @@ nav a:hover {
 .section {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .leftsection {
@@ -292,6 +293,8 @@ span {
 .cv,
 .click,
 a {
+    font-weight: bold;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
 }
@@ -301,29 +304,29 @@ a {
     margin-top: 150px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .rightsection img {
-        display: none;
+       
 
     }
 
     .leftsection {
-        margin-left: 30px;
+        height: 100%;
+        margin-left: 20%;
         width: 100%;
         margin-top: 100px;
-        font-size: 30px;
+        font-size: 4rem;
         font-family: Arial, Helvetica, sans-serif;
         color: black;
     }
 
     span {
         color: antiquewhite;
-        font-size: 45px;
+        font-size: 4rem;
     }
 
     .cv {
-        margin-top: 40px;
-        margin-left: 130px;
+        margin-top: 60px;
     }
 }
 
@@ -333,7 +336,7 @@ a {
 
 .line {
     margin-top: 70px;
-    width: 100%;
+    width: 155%;
     height: 4px;
     background-color: rgb(0, 58, 88);
 }
@@ -393,14 +396,14 @@ a {
     margin-left: 275px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .education {
         margin-left: -50px;
         text-decoration: underline;
     }
 
     .linee {
-        margin-left: 120px;
+        margin-left: 50%;
         
     }
 
@@ -462,9 +465,9 @@ a {
     text-shadow: 0 0 10px white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .social {
-        margin-left: 80px;
+        margin-left: 25%;
     }
 
     .social img {
@@ -492,8 +495,8 @@ a {
     .card {
         display: block;
         margin-left: -110px;
-        ma
     }
+
 
 
 }
@@ -575,7 +578,7 @@ a {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .socialContainer {
         margin-top: 70px;
     }
@@ -610,23 +613,23 @@ a {
     width: 900px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     #about h1 {
-        margin-left: 200px;
+        margin-left: 50%;
     }
 
     #about img {
         height: 200px;
         width: 250px;
         margin-top: 60px;
-        margin-left: 180px;
+        margin-left: 50%;
 
     }
 
     #about p {
-        font-size: 15px;
-        margin-top: 30px;
-        margin-left: 40px;
+        font-size: 1.2rem;
+        margin-top: 20%;
+        margin-left: 20%;
         width: 500px;
     }
 }
@@ -689,7 +692,7 @@ a {
     box-shadow: 0 0 5px black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .skills h1 {
         margin-top: 50px;
         margin-left: 160px;
@@ -786,7 +789,6 @@ a {
     background: linear-gradient(-135deg,
             rgb(50, 16, 130), rgb(75, 148, 185), rgb(24, 116, 244));
 }
-
 .front,
 .back {
     display: flex;
@@ -831,24 +833,23 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .project-paragraph {
-        font-size: 15px;
-        width: 480px;
-        margin-left: 50px;
+        font-size: 1.5rem;
+        width: 100%;
+        margin-left: 30%;
     }
 
     #project h1 {
-        margin-left: 200px;
+        margin-left: 50%;
     }
 
     #project h2 {
         margin-top: 50px;
-        margin-left: ;
     }
 
     .container {
-        margin-left: 150px;
+        margin-left: 50%;
     }
 
     .back .cv {
@@ -856,7 +857,9 @@ a {
         margin-top: 10px;
     }
 
+
 }
+
 
 #contact h1 {
     margin-left: 645px;
@@ -941,27 +944,27 @@ textarea {
 }
 
 .contact-img {
-    width: 768px;
+    width: 600px;
     margin-top: -35px;
     margin-left: 130px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .contact-img {
-        width: 400px;
-        margin-left: 20px;
+        width: 300px;
+        margin-left: 10px;
     }
 
     #contact h1 {
-        margin-left: 200px;
+        margin-left: 45%;
     }
-
-    .contact-container {
-        height: 50vh;
+    .contact-container{
+        margin-top: -30%;
     }
 }
 
 .footer {
+    width: 100%;
     margin-top: 70px;
     position: relative;
     background-color: rgb(0, 58, 88);
@@ -1009,16 +1012,15 @@ textarea {
     margin-left: 650px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .footer h1{
         padding-top: 0px;
     }
     .footer{
-        height: 240px;
+        margin-top: 30%;
+        width: 155%;
     }
     .sing img {
-
-        margin-top: 30px;
-        margin-left: 160px;
+        margin-left: 50%;
     }
 }
