@@ -306,8 +306,7 @@ a {
 
 @media (max-width: 600px) {
     .rightsection img {
-       
-
+       width: 650px;
     }
 
     .leftsection {
