@@ -96,7 +96,7 @@ nav {
 }
 
 /* Responsive Menu (Slide in from the right with delay effect) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .menu {
         position: fixed;
         top: 0;
@@ -301,7 +301,7 @@ a {
     margin-top: 150px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .rightsection img {
         display: none;
 
@@ -322,8 +322,8 @@ a {
     }
 
     .cv {
-        margin-top: 30px;
-        margin-left: 70px;
+        margin-top: 40px;
+        margin-left: 130px;
     }
 }
 
@@ -393,15 +393,15 @@ a {
     margin-left: 275px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .education {
         margin-left: -50px;
         text-decoration: underline;
     }
 
     .linee {
-        margin-left: 90px;
-        display: none;
+        margin-left: 120px;
+        
     }
 
     .vertical {
@@ -462,7 +462,11 @@ a {
     text-shadow: 0 0 10px white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    .social {
+        margin-left: 80px;
+    }
+
     .social img {
         margin-left: 100px;
     }
@@ -606,23 +610,24 @@ a {
     width: 900px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #about h1 {
-        margin-left: 150px;
+        margin-left: 200px;
     }
 
     #about img {
         height: 200px;
         width: 250px;
         margin-top: 60px;
-        margin-left: 120px;
+        margin-left: 180px;
 
     }
 
     #about p {
+        font-size: 15px;
         margin-top: 30px;
-        margin-left: 0px;
-        width: 400px;
+        margin-left: 40px;
+        width: 500px;
     }
 }
 
@@ -684,43 +689,48 @@ a {
     box-shadow: 0 0 5px black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .skills h1 {
         margin-top: 50px;
         margin-left: 160px;
     }
-    .skills img{
+
+    .skills img {
         width: 40px;
     }
 
     .skills {
-       margin-top: 10px;
-        margin-left: -140px;
+        margin-top: 10px;
+        margin-left: -90px;
     }
-     
-    .skills .persentage{
-        width: 340px;
+
+    .skills .persentage {
+        width: 400px;
         padding-left: 30px;
     }
-    .persentage .html{
+
+    .persentage .html {
         margin-top: -20px;
         margin-left: -30px;
         width: 320px;
     }
-    .persentage .css{
+
+    .persentage .css {
         margin-top: -20px;
         margin-left: -30px;
         width: 280px;
     }
-    .persentage .java{
+
+    .persentage .java {
         margin-top: -20px;
         margin-left: -30px;
         width: 200px;
     }
-    .skills-photo img{
+
+    .skills-photo img {
         display: none;
     }
-    }
+}
 
 
 #project h1 {
@@ -820,13 +830,30 @@ a {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 600px){
-    .project-paragraph{
-        width: 400px;
-        margin-left: 0px;
+
+@media (max-width: 768px) {
+    .project-paragraph {
+        font-size: 15px;
+        width: 480px;
+        margin-left: 50px;
     }
-    #project h1{
-        display: none;
+
+    #project h1 {
+        margin-left: 200px;
+    }
+
+    #project h2 {
+        margin-top: 50px;
+        margin-left: ;
+    }
+
+    .container {
+        margin-left: 150px;
+    }
+
+    .back .cv {
+        margin-left: 8px;
+        margin-top: 10px;
     }
 
 }
@@ -847,13 +874,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-@media (max-width: 768px) {
-    .contact-container {
-        margin-top: -100px;
-        margin-left: 50px;
-    }
 }
 
 .contact-left {
@@ -921,16 +941,23 @@ textarea {
 }
 
 .contact-img {
-    width: 600px;
+    width: 768px;
     margin-top: -35px;
     margin-left: 130px;
 }
-@media (max-width: 600px){
-    .contact-img{
-        display: none;
+
+@media (max-width: 768px) {
+    .contact-img {
+        width: 200px;
+        margin-left: 10px;
     }
-    #contact h1{
-        display: none;
+
+    #contact h1 {
+        margin-left: 200px;
+    }
+
+    .contact-container {
+        height: 50vh;
     }
 }
 
@@ -981,8 +1008,17 @@ textarea {
     margin-top: -150px;
     margin-left: 650px;
 }
-@media (max-width: 600px){
-    .sing img{
-        display: none;
+
+@media (max-width: 768px) {
+    .footer h1{
+        padding-top: 0px;
+    }
+    .footer{
+        height: 240px;
+    }
+    .sing img {
+
+        margin-top: 30px;
+        margin-left: 160px;
     }
 }
