@@ -950,8 +950,8 @@ textarea {
 
 @media (max-width: 600px) {
     .contact-img {
-        width: 300px;
-        margin-left: 10px;
+        width: 280px;
+        margin-left: 5px;
     }
 
     #contact h1 {
